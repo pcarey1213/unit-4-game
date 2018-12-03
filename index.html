@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Homework 4</title>
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <script src="./assets/javascript/jquery-3.3.1.min.js"></script>
+    <script src="./assets/javascript/game.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Crystals Collector!</h1>
+    </header>
+
+    <div class="container" id="wrapper"> 
+        <div id="intro">
+            <ul>
+                <li id="step1"> You will be given a random number at the start of the game.
+                </li>
+                <li id="step2"> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+                </li>
+                <li id="step3"> You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
+                </li>
+                <li id="step4"> The value of each crystal is hidden from you until you click on it.
+                </li>
+                <li id="step5"> Each time when the game starts, the game will change the values of each crystal.
+                </li>
+            </ul>
+        </div>
+
+        <div id="rand-num">
+
+        </div>
+
+        <div id="countnbuttons">
+
+            <div class="crystalholder">
+                <div id="amethyst">
+                    <img src="./assets/images/amethyst.png" alt="amethyst">
+                </div>
+                <div id="emerald">
+                        <img src="./assets/images/emerald.png" alt="emerald">
+                </div>
+                <div id="topaz">
+                        <img src="./assets/images/topaz.png" alt="topaz">
+                </div>
+                <div id="ruby">
+                        <img src="./assets/images/ruby.png" alt="ruby">
+                </div>
+            </div>
+
+            <div class="wins-losses">
+                <div id="wincounter"> Total Wins: <span id="totalwins"> </span></div>
+                <div id="losscounter"> Total Losses: <span id="totallosses"> </span></div>
+            </div>
+
+        </div>
+
+        <div id="score">
+
+        </div>
+
+    </div>
+
+</body>
+
+
+</html>

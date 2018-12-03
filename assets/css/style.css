@@ -1,0 +1,98 @@
+body{
+    background-image:url("../images/tile.png")
+}
+
+header{
+    font-size:40px;
+    font-weight: bold;
+    color: rgb(255, 30, 0);
+    background-color: antiquewhite;
+    width: 400px;
+    text-align:center;
+    padding: 10px;
+    border:groove 4px blueviolet;
+    margin: 5px;
+
+
+}
+
+.container{
+    justify-content: center;
+}
+
+#intro{
+    font-weight: bold;
+    border:groove 4px violet;
+    padding:5px;
+    margin:5px;
+    display:inline-block;
+    background-color: antiquewhite;
+    line-height:1.5em;
+}
+
+
+#rand-num{
+    overflow:auto;
+    width:250px;
+    font-size:30px;
+    font-weight:bold;
+    border: groove 4px orange;
+    padding: 10px;
+    margin:5px;
+    background-color: antiquewhite;
+}
+
+#countnbuttons{
+    overflow:auto;
+    width:800px;
+    margin-bottom:10px;
+    display:flex;
+    justify-items: center;
+
+
+}
+.crystalholder{
+    overflow:auto;
+    width:450px;
+    align-content: center;
+    margin:5px;
+    padding:5px;
+    border: 4px groove crimson; 
+    background-color: antiquewhite;
+}
+
+.wins-losses{
+    overflow:auto;
+    font-size: 30px;
+    font-weight: bold;
+    position:relative;
+    width: 250px;
+    margin:5px;
+    padding:30px 10px;
+    border: 4px groove blueviolet; 
+    background-color: antiquewhite
+}
+
+span{
+    display:inline-block;
+    padding:5px;
+}
+img{
+    float:left;
+    border:solid, 5px, black;
+    margin: 5px;
+    width:100px;
+
+}
+
+#score{
+    position:relative;
+    overflow:auto;
+    width:250px;
+    font-size:30px;
+    font-weight:bold;
+    border: groove 4px rgb(58, 255, 9);
+    padding: 10px;
+    background-color: antiquewhite;
+    margin:5px;
+}
