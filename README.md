@@ -24,6 +24,6 @@ A fun, interactive game for web browsers using JQuery. This app dynamically upda
 
 * When the game begins again, a new target number is generated. Each crystals also has four new hidden values. The user's score (and score counter) will reset to zero.
 
-* The player's total wins and losses are shown (purple box)
+* The player's total wins and losses are shown (purple box).
 
 **Thanks for Playing!**
