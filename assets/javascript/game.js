@@ -21,10 +21,10 @@ $("#totallosses").text(lossCount);
 
     //Reset
 randNum = Math.floor(Math.random() * 120) + 19;
-rubyCount=Math.floor(Math.random() * 12) + 1;
-topazCount=Math.floor(Math.random() * 12) + 1;
-emeraldCount=Math.floor(Math.random() * 12) + 1;
-amethystCount=Math.floor(Math.random() * 12) + 1;
+rubyCount= Math.floor(Math.random() * 12) + 1;
+topazCount= Math.floor(Math.random() * 12) + 1;
+emeraldCount= Math.floor(Math.random() * 12) + 1;
+amethystCount= Math.floor(Math.random() * 12) + 1;
 totalScore=0;
 
 console.log(randNum);  
@@ -36,7 +36,7 @@ console.log("amethyst count: "+amethystCount);
 $("#rand-num").text(randNum);
 $("#score").text(totalScore);
 
-}
+};
 
 $("#ruby").on("click", function(){
     totalScore=totalScore+rubyCount;
